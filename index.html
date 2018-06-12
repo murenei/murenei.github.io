@@ -17,6 +17,19 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/cover.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <!-- JQUERY Scripts -->
+    <script>
+      $(document).ready(function(){
+
+           // jQuery methods go here...
+        $("#ja").click(function(){
+              $(".ja").hide()
+          });
+        });
+    </script>
   </head>
 
   <body class="text-center" id="walkthrough-1">
@@ -38,6 +51,9 @@
         <p class="lead">Hi there. My name is Richard and I like to build things. This website showcases some of the things I have built.</p>
         <p class="lead">
           <a href="#" class="btn btn-lg btn-secondary" id="walkthrough-2">Learn more</a>
+        </p>
+        <p class="lead">
+          <button href="#" class="btn btn-lg btn-secondary" id="ja">JQuery test</a>
         </p>
       </main>
 
