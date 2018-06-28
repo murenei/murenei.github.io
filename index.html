@@ -110,14 +110,14 @@
           <h2 class="mb-5">Projects</h2>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
+            <div class="resume-content col-md">
               <h3 class="mb-0">Examinyzer</h3>
               <div class="subheading mb-3">Maths web app for students, launched April 2017</div>
               <p>Built using Django, Python, Bootstrap, JS and MathJax.</p>
               <p>Generates maths examples for certain problem types that students can use as exam preparation (hence "<i>Exam</i>inyzer").</p>
-              <p>The project was originally conceived as an "engineering growth hack" for Tutify (my online tutoring company), which would consume past HSC exam papers in pdf form, extract the questions, answers and marking guidelines to create a large database of practice materials for students. This immediately ran into copyright issues and so I resolved to generate the questions themselves instead. </p>
+              <p>The project was originally conceived as an "engineering growth hack" for Tutify (my online tutoring company), which would consume past HSC exam papers in pdf form, extract the questions, answers and marking guidelines using OCR (optical character recognition) to create a large database of practice materials for students. This immediately ran into copyright issues and so I resolved to generate the questions themselves instead (using Python functions). </p>
             </div>
-            <div class="resume-date text-md-right">
+            <div class="col-md"> <!-- right text alignement on viewports medium (md>=992px) or larger -->
               <img class="img-thumbnail" src="img/examinyzer-homepage.png" alt-text="examinyzer-thumb"/>
             </div>
           </div>
@@ -128,7 +128,7 @@
               <div class="subheading mb-3">Machine Learning web app, coming July 2018!</div>
               <p>Using Machine Learning to classify articles and their authors, and map a bipartite network graph of authors and their articles. The project allowed me to practice skills in web scraping, machine learning, deep learning, natural language processing, and network analysis.</p>
               <p>Uses Django, JS and Bootstrap as well as the following Python packages: Scrapy, NetworkX, scikit-learn, numpy, pandas</p>
-              <p>Network graphs plotted using <a href="http://js.cytoscape.org/" target="_blank">Cytoscape</a>. Other visulaisations use <a href="https://plot.ly/python/" target="_blank">plot.ly</a></p>
+              <p>Network graphs plotted using <a href="http://js.cytoscape.org/" target="_blank">Cytoscape</a>. Other visualisations use <a href="https://plot.ly/python/" target="_blank">plot.ly</a></p>
             </div>
             <!-- <div class="resume-date text-md-right">
               <img width="200px" height="200px" src="img/RM_2_cropped.jpeg" alt-text="topicly-thumb"/>
@@ -136,27 +136,33 @@
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
+            <div class="resume-content col-md">
               <h3 class="mb-0">Tutify</h3>
               <div class="subheading mb-3">Online academic tutoring of high school students, launched Jan 2017</div>
               <p>Ran an online tutoring company for high school students in Australia for 1.5 years.</p>
             </div>
-            <div class="resume-date text-md-right">
-              <img class="img-thumbnail" src="img/tutify-homepage.png" alt-text="tutify-thumb"/>
+            <div class="col-md">
+              <a href="https://tutify.com.au" target="_blank">
+                <img class="img-thumbnail" src="img/tutify-homepage.png" alt-text="tutify-thumb"/>
+              </a>
             </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
+            <div class="resume-content col-md">
               <h3 class="mb-0">Sir Lanka Shirts</h3>
-              <div class="subheading mb-3">eCommerce side project - Short-sleeve, button-up shirts</div>
+              <div class="subheading mb-3">eCommerce side project - Short-sleeve, button-up shirts, launched Dec 2017</div>
               <p>Original patterns, hand-crafted in Sri Lanka and delivered globally.</p>
+              <p>Hosted on Shopify, website designed and made by me.</p>
             </div>
-            <div class="resume-date text-md-right">
-              <img class="img-thumbnail" src="img/sirlankashirts.png" alt-text="sir-lanka-thumb"/>
+            <div class="col-md">
+              <a href="https://sirlankashirts.com" target="_blank">
+                <img class="img-thumbnail" src="img/sirlankashirts.png" alt-text="sir-lanka-thumb"/>
+              </a>
             </div>
           </div>
 
+<!-- ORIGINAL STYLING FROM TEMPLATE -->
           <!-- <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Web Design Intern</h3>
@@ -199,7 +205,17 @@
         <div class="my-auto">
           <h2 class="mb-5">Capabilities</h2>
 
-          <div class="subheading mb-3">Machine Learning</div>
+          <div class="subheading mb-3">Scripting / Programming / Automation</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicon-python-plain-wordmark colored"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-javascript-plain colored"></i>
+            </li>
+          </ul>         
+
+          <div class="subheading mb-3">Data Science & Machine Learning</div>
           <ul class="list-inline list-icons">
             <li class="list-inline-item">
               <i class="devicons devicon-python-plain-wordmark colored"></i>
